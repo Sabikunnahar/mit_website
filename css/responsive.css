@@ -1,0 +1,156 @@
+
+@media screen and (max-width:1150px) {
+  .who-we-are-content p{
+    margin-right: 0px;
+    margin: 0 3rem;
+  }
+}
+@media screen and (max-width:1060px) {
+  .who-we-are-content,
+  .who-we-are-image{
+    flex-basis: 95%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 0;
+  }
+ 
+  .who-we-are-area{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .bg-area{
+    flex-basis: 30%;
+    overflow: hidden;
+    margin: 1rem auto;
+    position: relative;
+    z-index: 99;
+  }
+}
+@media screen and (max-width:991px) {
+  /*MOBILE MENU nav-menu Styling */
+  .menu-btn{
+   display: block;
+   z-index: 9999;
+}
+.navbar-area{
+  display: block;
+  padding-left: 5rem;
+}
+
+.menu-btn i.active:before{
+   content: "\f00d";
+ }
+.navbar .menu{
+  position: absolute;
+  display: block;
+  height: 100vh;
+  width: 100%;
+  left: -108%;
+  top: 5%;
+  padding-top: 4rem;
+  background: rgb(6, 80, 230, 0.8);
+  transition: 0.5s ease-in;
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+  -ms-transition: 0.5s ease-in;
+  -o-transition: 0.5s ease-in;
+  z-index: 999;
+}
+.navbar .menu .menu-item a{
+ color: #000;
+}
+.nav-left-side-menu .menu .menu-item {
+ display:block;
+ border-top: 1px solid #000;
+}
+.navbar .menu.active{
+   left: 0;
+   padding-top: 18px;
+}
+.navbar ul.menu li.menu-item{
+  display: block;
+}
+.navbar ul.menu li.menu-item a, 
+.navbar ul.menu li.menu-item a.item {
+	padding: 10px 0;
+  border-bottom: 1px solid;
+  padding: 1rem 0;
+  display:block;
+}
+.navbar ul.menu li.menu-item a.item{
+  padding: 1rem;
+}
+ .navbar ul.menu li.menu-item a.menu-link:hover{
+   background: #1465ea;
+   color: #fff;
+ }
+ .header-content h1 {
+	font-size: 3rem;
+}
+}
+@media screen and (max-width:767px) {
+
+  .our-vision-area {
+    background: #0C71C3;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+    height: auto;
+  }
+  .bg-area{
+    flex-basis: 46%;
+    overflow: hidden;
+    margin: 1rem auto;
+    position: relative;
+    z-index: 99;
+  }
+}
+
+@media screen and (max-width:750px) {
+  .navbar .menu{
+    left: -118%;
+  }
+} 
+@media screen and (max-width:690px){
+  .header-content h1 {
+    padding: 0 3rem;
+  }
+}
+@media screen and (max-width:600px) {
+  .who-we-are-content,
+  .who-we-are-image{
+    flex-basis: 95%;
+    margin: 0 auto;
+    text-align: start;
+    padding: 2rem 0;
+  }
+  .who-we-are-image img {
+    width: 100%;
+  }
+  .who-we-are-image .img2 {
+    margin-top: -77px;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width:590px){
+  .bg-area{
+    flex-basis: 95%;
+    overflow: hidden;
+    margin: 1rem auto;
+    position: relative;
+    z-index: 99;
+  }
+  .what-we-do-content i,
+.what-we-do-content span{
+  font-size: 40px;
+}
+}
+@media screen and (max-width:400px){
+  .what-we-do-content i,
+.what-we-do-content span{
+  font-size: 25px;
+}
+}
